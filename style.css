@@ -1,0 +1,177 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+/*html, body { min-height: 100%; }*/
+
+body {
+  background: url(background.jpg);
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+  text-align: center;
+  font-size: 100vm;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+#menuSide{
+  display: none;
+}
+#shopSide{
+  display: none;
+}
+#broken{
+  font-size: 200;
+  background-color: red;
+  min-width: 110%;
+  min-height: 110%;
+  left: -27px;
+  top: -27px;
+  position: absolute;
+}
+.pBro{
+  top: 10px;
+  font-size: 50px;
+}
+#maxMon{
+  display: none;
+  font-size: 15px;
+  background-color: #5dffff;
+  top: 85px;
+  display: none;
+}
+#maxMonPrice{
+  background-color: #5dffff;
+  top: 100px;
+  position: absolute;
+  width: 185px;
+  left: 4px;
+  display: none;
+}
+#monPerPrice{
+  background-color: #e464e4;
+  top: 185px;
+  position: absolute;
+  width: 185px;
+  left: 4px;
+  display: none;
+}
+.menuItem{
+  position: absolute;
+  border-style: double;
+  width: 194px;
+  height: 50px;
+  left: 0px;
+  display: none;
+}
+.updateItem{
+  position: absolute;
+  width: 194px;
+  top: 0px;
+  left: -10px;
+  display: none;
+  overflow: block;
+}
+.shopItem{
+  position: absolute;
+  border-style: double;
+  width: 194px;
+  height: 50px;
+  right: 0px;
+  display: none;
+}
+#autoPrice{
+  position: absolute;
+  background-color: #ffc14f;
+  right: 0px;
+  top: 105px;
+  width: 185px;
+  right: 4px;
+  display: none;
+}
+.button{
+  /*border-radius: 50%;*/
+  width: 200px;
+  height: 200px;/*
+  outline-width: 10px;
+  outline-color: black;
+  color: black;
+  background-color: purple;
+  padding: 75px;
+  font-size: 30px;
+  font-weight: bold;
+  user-select: none;
+  -moz-user-select: none;*/
+  background-position: center;
+}
+.shop{
+  border-style: ridge;
+  background-color: grey;
+  height: 100%;
+  text-align: left;
+  display: inline-block;
+  outline-color: black;
+}
+#shop{
+  user-select: none;
+  -moz-user-select: none;
+}
+#settings{
+  user-select: none;
+  -moz-user-select: none;
+}
+#updates{
+  user-select: none;
+  -moz-user-select: none;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white; 
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  display: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
